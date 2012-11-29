@@ -1,0 +1,10 @@
+{application, ccl5, [
+    {description, ""},
+    {vsn, ["0.0"]},
+    {applications, [kernel, stdlib, hackney, crypto, xmerl]},
+    {registered, []},
+    {env, [
+            {account, "dimimd"},
+            {azure_key, "V4slYOCV2cp8n2oKKbRnYzhCnchVoheBnB3cbJK35Na/Fmf+1hZ/UNoCVGLPbwCs7phi6F9gaap6v14zOONalg=="}
+          ]}
+]}.
